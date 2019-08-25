@@ -48,7 +48,11 @@ nav {
  }
  .change {
      float: right;
+     margin: 5px;
  }
 details{
     background-color: green;
+}
+p{
+    text-align: justify;
 }
