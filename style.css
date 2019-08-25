@@ -1,0 +1,54 @@
+header{
+    text-align: center;
+    background-color:gray;
+}
+footer{
+    text-align: left;
+    display: inline;
+}
+figure{
+    text-align:center;
+}
+aside{
+    display: inline-flex;
+    align: right;
+}
+aside a img{
+    width: 340px;
+}
+aside a{
+    margin: 5px;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+nav {
+    background-color:gray;
+    }
+    nav a{
+        text-decoration: none;
+        color: black;
+        text-align: right;
+    }
+ .image_blog{
+     float: left;
+     display: block;
+
+ }
+ .image_blog2{
+     float: right;
+     display: block;
+
+ }
+ body{
+     background-color: lightgrey;
+ }
+ a:hover{
+     background-color: green;
+ }
+ .change {
+     float: right;
+ }
+details{
+    background-color: green;
+}
