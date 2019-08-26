@@ -1,6 +1,7 @@
 header{
     text-align: center;
     background-color:gray;
+    border: 2px solid bisque;
 }
 footer{
     text-align: left;
@@ -10,17 +11,18 @@ figure{
     text-align:center;
 }
 aside{
-    display: inline-flex;
-    align: right;
+ display: inline-flex;
 }
 aside a img{
     width: 340px;
+    height: 180px;
 }
 aside a{
-    margin: 5px;
+     margin: 5px;
     text-decoration: none;
     color: black;
     text-align: center;
+    vertical-align: bottom;
 }
 nav {
     background-color:gray;
