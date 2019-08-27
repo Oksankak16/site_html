@@ -11,7 +11,9 @@ figure{
     text-align:center;
 }
 aside{
- display: inline-flex;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content:space-between;
 }
 aside a img{
     width: 340px;
@@ -57,4 +59,18 @@ details{
 }
 p{
     text-align: justify;
+}
+
+/* img.main{ */
+    /* float: left; */
+    /* margin: 5px; */
+}
+#obtic1{
+    float: left;
+}
+#obtic2{
+    float: right;
+}
+#obtic3{
+    float: left;
 }
