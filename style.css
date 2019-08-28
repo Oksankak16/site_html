@@ -1,12 +1,14 @@
-header{
+header {
     text-align: center;
-    background-color:gray;
+    background-color: gray;
     border: 2px solid bisque;
 }
-footer{
+
+footer {
     text-align: left;
     /* display: inline; */
 }
+
 /* figure{
     text-align:center;
 } */
@@ -15,26 +17,30 @@ footer{
     flex-direction: row-reverse;
     justify-content:space-between;
 } */
-aside a img{
+aside a img {
     width: 340px;
     height: 180px;
 }
-aside a{
-     margin: 5px;
+
+aside a {
+    margin: 5px;
     text-decoration: none;
     color: black;
     /* text-align: center;
     vertical-align: bottom; */
 }
+
 nav {
-    background-color:gray;
-    }
-    nav a{
-        text-decoration: none;
-        color: black;
-        text-align: right;
-    }
- /* .image_blog{
+    background-color: gray;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    text-align: right;
+}
+
+/* .image_blog{
      float: left;
      display: block;
 
@@ -43,26 +49,29 @@ nav {
      float: right;
      display: block;
  } */
- body{
-     background-color: lightgrey;
- }
- a:hover{
-     background-color: green;
- }
- .change {
-     float: right;
-     margin: 5px;
- }
-details{
+body {
+    background-color: lightgrey;
+}
+
+a:hover {
     background-color: green;
 }
+
+.change {
+    float: right;
+    margin: 5px;
+}
+
+details {
+    background-color: green;
+}
+
 /* p{
     text-align: justify;
 } */
-
 /* img.main{ */
-    /* float: left; */
-    /* margin: 5px; }*/
+/* float: left; */
+/* margin: 5px; }*/
 /* #obtic1{
     float: left;
 }
