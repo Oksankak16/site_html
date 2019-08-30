@@ -1,0 +1,86 @@
+:root {
+    scroll-behavior: smooth;
+    }
+
+body{
+    max-width: 980px;
+    margin: auto;
+    background-color: #629c44;
+}
+
+header nav .menu{
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0;
+}
+header nav .menu li a{
+text-decoration: none;
+border:1px solid transparent;
+padding:5px 10px;
+color: #898989;
+border: 1px solid black;
+background-color: #424242;
+/* height: 50px; */
+/* font-size: 16px; */
+}
+/* header nav .menu li:hover{
+    background-color: black;
+    height: 50px;
+    width:200px;
+    text-align: center;
+    align-content: center;
+} */
+header nav .menu li a:hover{
+    background-color: black;
+    border:1px solid white;
+}
+header nav div{
+    height:150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 5px;
+}
+header nav div h1{
+    margin:0 auto;
+}
+header nav div h2{
+    color: white;
+    background-color: grey;
+    border-radius: 8px;
+    font-style: italic;
+    padding: 5px;
+    margin:0;
+}
+header nav div h1+h2{
+    margin-left:100px;
+}
+header .slider{
+    background-image: url(../images/mountain_change.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+@media (min-width: 500px) {
+    header nav div{
+        margin: 0;
+        display: flex;
+       flex-direction: column;
+       height: 100px;
+        }
+    header nav .menu li a{
+        display: flex;
+        /* flex: 1; */
+        justify-content: flex-start;
+        font-size: 24px;
+        padding:10px 20px;
+        /* margin: 0; */
+    }
+}
