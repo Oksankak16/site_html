@@ -81,6 +81,7 @@ header .slider{
         justify-content: flex-start;
         font-size: 24px;
         padding:10px 20px;
+        flex-wrap: wrap;
         /* margin: 0; */
     }
 }
