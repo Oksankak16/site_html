@@ -5,7 +5,8 @@
 body{
     max-width: 980px;
     margin: auto;
-    background-color: #629c44;
+    /* background-color: #629c44; */
+    background-image: url(../images/fontbody2.jpg);
 }
 
 header nav .menu{
@@ -85,4 +86,12 @@ header .slider{
         /* flex-wrap: wrap; */
         /* margin: 0; */
     }
+}
+aside{
+    display: flex;
+    flex-direction: column;
+  /* justify-content: center; */
+}
+aside a img{
+    width:400px;
 }
