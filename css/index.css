@@ -87,11 +87,48 @@ header .slider{
         /* margin: 0; */
     }
 }
-aside{
-    display: flex;
-    flex-direction: column;
+/* @media (min-width: 700px) {
+aside{ */
+    /* display: flex; */
+    /* flex-direction: column; */
   /* justify-content: center; */
+  /* display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+} } */
+main aside {
+    display: flex;
+    flex-direction: row;
 }
 aside a img{
-    width:400px;
+    width:150px;
 }
+aside a{
+    text-decoration: none;
+    color: white;
+}
+main article p {
+    color: white;
+    text-align: justify;
+    font-size: 18px;
+}
+main article p strong{
+    color: black;
+}
+main{
+    /* display: flex;
+    flex-direction: column; */
+}
+@media (min-width: 700px) {
+main{
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+}
+main aside{
+    flex-direction: column;
+    margin-left: 50px;
+}
+main aside img{
+width:300px;
+}
+ }
