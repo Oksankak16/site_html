@@ -1,13 +1,17 @@
 // create slider
-let slider=document.querySelectorAll('.slider-item');
-let currentslider=0;
-let slideInterval=setInterval(nextSlide, 2000);
-function nextSlide () {
-    slider[currentSlide].className = 'slider-item';
-    currentSlide = (currentSlide+1)%slider.length;
-    slider[currentSlide].className = 'slider-item showing';
-}
-//
+let slides = document.querySelectorAll('#slides .slide');
+let currentSlide = 0;
+let slideInterval = setInterval(nextSlide,2000);
 
-// slider.addEventListener('click', actSlider);
-// function actSlider (){}
+function nextSlide() {
+    slides[currentSlide].className = 'slide';
+    currentSlide = (currentSlide+1)%slides.length;
+    slides[currentSlide].className = 'slide showing';
+}
+// create clock
+const clock=document.querySelector('#clock');
+setInterval( ()=> clock.innerText=(new Date()).toLocaleString(), 1000);
+
+// dialog
+let dialog = document.querySelector('dialog');
+document.querySelector('#show').addEventListener('click',() => dialog.show());

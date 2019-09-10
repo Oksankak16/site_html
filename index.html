@@ -15,6 +15,7 @@
                         <img src="images/logo.png" alt="Логотип" height="55" width="66">Мандруй
                     </h1>
                     <h2>Туристичний путівник Карпатами</h2>
+                    <div id="clock"></div>
                 </div>
                 <ul class="menu">
                     <li>
@@ -30,17 +31,17 @@
             <button>Пошук</button></li> -->
                 </ul>
             </nav>
-            <div class="slider">
-                <div class="slider-item showing"></div>
-                <div class="slider-item"></div>
-                <div class="slider-item"></div>
+            <ul id="slides">
+                <li class="slide showing"></li>
+                <li class="slide"></li>
+                <li class="slide"></li>
             <!-- <img src="images/mountain_change.jpeg" alt="Гора" width="980" height="526" class="slider"> -->
             <!-- <img src="images/img2.jpeg" alt="mountains2" width="980" height="526">
          <img src="images/img3.jpeg" alt="mountains3" width="980" height="526">
          <img src="images/img4.jpeg" alt="mountains4" width="980" height="526">
          <img src="images/img5.jpeg" alt="mountains5" width="980" height="526">
          <img src="images/img6.jpeg" alt="mountains6" width="980" height="526"> -->
-            </div>
+            </ul>
         </header>
         <main>
             <article>
@@ -87,8 +88,9 @@
                 <p>0671030220</p>
             </section>
             <section>
-            <h4>Напишіть нам:</h4>
-            <form action="https://formspree.io/oksankak16@gmail.com" method="POST">
+<button id="show">Напишіть нам!</button>
+<dialog>
+            <form class="dialog" action="https://formspree.io/oksankak16@gmail.com" method="POST">
                 <label>
                     <input type="text" placeholder="Ваше ім'я" name="your_name">
                 </label>
@@ -108,6 +110,7 @@
                     <input type="submit" value="Відправити">
                 </label>
             </form>
+</dialog>
             </section>
         </footer>
         <article>
