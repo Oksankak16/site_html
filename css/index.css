@@ -177,12 +177,10 @@ main article p strong {
         flex-direction: row;
         /* align-items: center; */
     }
-
     main aside {
         flex-direction: column;
         margin-left: 50px;
     }
-
     main aside img {
         width: 300px;
     }
@@ -242,5 +240,11 @@ figure {
     border: 5px solid #1A9B8D;
     background-color: #486464;
     color: white;
-   margin-left: 190px;
+    /* height: 150px; */
+   margin-left: 250px;
 }
+#placeSearch{
+    width: 100px;
+}
+/* бургер меню попробувати, вертикальний слайдер,
+футер трохи поміняти, адаптувати, кнопка пошуку, картинки 1-го слайдера поміняти */
