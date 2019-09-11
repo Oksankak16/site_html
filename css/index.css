@@ -1,15 +1,15 @@
-@import url('https://fonts.googleapis.com/css?family=Chilanka&display=swap');
-:root {
+@import url('https://fonts.googleapis.com/css?family=Chilanka&display=swap'); :root {
     scroll-behavior: smooth;
     font-family: 'Chilanka', cursive;
-    }
+}
 
-body{
+body {
     max-width: 980px;
     margin: auto;
     background-image: url(../images/fontbody2.jpg);
 }
-header nav .menu{
+
+header nav .menu {
     display: flex;
     list-style-type: none;
     justify-content: flex-start;
@@ -17,45 +17,53 @@ header nav .menu{
     padding: 0;
     flex-wrap: wrap;
 }
-header nav .menu li a{
-text-decoration: none;
-border:1px solid transparent;
-padding:5px 10px;
-color: #898989;
-border: 1px solid black;
-background-color: #424242;
-/* height: 50px; */
-/* font-size: 16px; */
+
+header nav .menu li a {
+    text-decoration: none;
+    border: 1px solid transparent;
+    padding: 5px 10px;
+    color: #898989;
+    border: 1px solid black;
+    background-color: #424242;
+    /* height: 50px; */
+    /* font-size: 16px; */
 }
-header nav .menu li a:hover{
+
+header nav .menu li a:hover {
     background-color: black;
-    border:1px solid white;
+    border: 1px solid white;
 }
-header nav div{
-    height:150px;
+
+header nav div {
+    height: 150px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
     margin-top: 5px;
 }
-header nav div h1{
-    margin:0 auto;
+
+header nav div h1 {
+    margin: 0 auto;
 }
-header nav div h2{
+
+header nav div h2 {
     color: white;
     background-color: grey;
     border-radius: 8px;
     padding: 5px;
-    margin:0;
+    margin: 0;
     font-size: 18px;
 }
-header nav div h1+h2{
-    margin-left:100px;
+
+header nav div h1+h2 {
+    margin-left: 100px;
 }
-.logo{
+
+.logo {
     /* margin: 100px; */
 }
+
 /* create .slider */
 .slide {
     /* font-size: 40px;
@@ -68,7 +76,7 @@ header nav div h1+h2{
 #slides {
     background-position: center;
     background-size: cover;
-    background-attachment:fixed;
+    background-attachment: fixed;
     position: relative;
     height: 450px;
     padding: 0px;
@@ -84,7 +92,6 @@ header nav div h1+h2{
     height: 100%;
     opacity: 0;
     z-index: 1;
-
     -webkit-transition: opacity 1s;
     -moz-transition: opacity 1s;
     -o-transition: opacity 1s;
@@ -95,117 +102,145 @@ header nav div h1+h2{
     opacity: 1;
     z-index: 2;
 }
-.slide:nth-of-type(1){
-background-image: url(../images/mountain_change.jpeg);
+
+.slide:nth-of-type(1) {
+    background-image: url(../images/mountain_change.jpeg);
 }
- .slide:nth-of-type(2){
-background-image: url(../images/img2.jpeg);
+
+.slide:nth-of-type(2) {
+    background-image: url(../images/img2.jpeg);
 }
-.slide:nth-of-type(3){
-background-image: url(../images/img3.jpeg);
+
+.slide:nth-of-type(3) {
+    background-image: url(../images/img3.jpeg);
 }
+
 @media (min-width: 550px) {
-    header nav div{
+    header nav div {
         margin: 0;
         display: flex;
-       flex-direction: column;
-       height: 100px;
-        }
-    header nav .menu li a{
+        flex-direction: column;
+        height: 100px;
+    }
+
+    header nav .menu li a {
         display: flex;
         /* flex: 1; */
         justify-content: flex-start;
         font-size: 24px;
-        padding:10px 20px;
+        padding: 10px 20px;
         /* flex-wrap: wrap; */
         /* margin: 0; */
     }
 }
+
 /* @media (min-width: 700px) {
 aside{ */
-    /* display: flex; */
-    /* flex-direction: column; */
-  /* justify-content: center; */
-  /* display: grid;
+/* display: flex; */
+/* flex-direction: column; */
+/* justify-content: center; */
+/* display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 } } */
 main aside {
     display: flex;
     flex-direction: row;
 }
-aside a img{
-    width:150px;
+
+aside a img {
+    width: 150px;
 }
-aside a{
+
+aside a {
     text-decoration: none;
     color: white;
     /* width: 200px; */
 }
+
 main article p {
     color: white;
     text-align: justify;
     font-size: 18px;
 }
-main article p strong{
+
+main article p strong {
     color: black;
 }
+
 /* main{
     display: flex;
     flex-direction: column;
 } */
 @media (min-width: 700px) {
-main{
-  display: flex;
-  flex-direction: row;
-  /* align-items: center; */
+    main {
+        display: flex;
+        flex-direction: row;
+        /* align-items: center; */
+    }
+
+    main aside {
+        flex-direction: column;
+        margin-left: 50px;
+    }
+
+    main aside img {
+        width: 300px;
+    }
 }
-main aside{
-    flex-direction: column;
-    margin-left: 50px;
-    
+
+footer {
+    display: flex;
+    margin-top: 50px;
+    flex-direction: column-reverse;
 }
-main aside img{
-width:300px;
-}
- }
- footer{
-     display:flex;
-     margin-top: 50px;
-     flex-direction: column-reverse;
- }
-dialog{
+
+dialog {
     margin-left: 400px;
     margin-top: -80px;
     border: 2px solid #2D9E9E;
-     background-color:#486464;
-     border-radius: 5px;
+    background-color: #486464;
+    border-radius: 5px;
 }
-form{
-    margin:0;
-     /* color:#2D9E9E; */
+
+form {
+    margin: 0;
+    /* color:#2D9E9E; */
 }
-button{
-     border: 2px solid black;
-     background-color:#486464;
-     border-radius: 5px;
-      color:#2D9E9E;
-      font-size: 18px;
+
+button {
+    border: 2px solid black;
+    background-color: #486464;
+    border-radius: 5px;
+    color: #2D9E9E;
+    font-size: 18px;
 }
-button:hover{
+
+button:hover {
     background-color: rgb(14, 48, 44);
 }
- #clock{
-     width: 140px;
-     height: 60px;
-     font-size: 30px;
-     margin-top: -100px;
-     margin-left:85%;
-     border: 5px solid #1A9B8D;
-     background-color:#486464;
-     color:white;
-     border-radius: 5px;
- }
- figure {
-     display: flex;
-     justify-content: center;
- }
+
+#clock {
+    width: 140px;
+    height: 60px;
+    font-size: 30px;
+    margin-top: -100px;
+    margin-left: 85%;
+    border: 5px solid #1A9B8D;
+    background-color: #486464;
+    color: white;
+    border-radius: 5px;
+}
+#simple-vertical {
+  width: 100%;
+  color: #FFF;
+}
+figure {
+    display: flex;
+    justify-content: center;
+}
+#search{
+    border: 5px solid #1A9B8D;
+    background-color: #486464;
+    color: white;
+   margin-left: 190px;
+}
